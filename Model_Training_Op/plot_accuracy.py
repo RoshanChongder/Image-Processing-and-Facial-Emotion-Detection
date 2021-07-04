@@ -23,7 +23,7 @@ while True :
       for i in range(len(epoc_count)) :
         print( epoc_count[i] , test_accu[i] , val_accu[i] )
       plt.xlabel("Epoch") , plt.ylabel("Accuracy")
-      plt.plot( epoc_count , test_accu , 'r--' , label='Test accuracy' )
+      plt.plot( epoc_count , test_accu , 'r--' , label='Training accuracy' )
       plt.plot( epoc_count , val_accu  , 'b--' , label='Validation Accuracy' ) 
       plt.legend( loc = 'upper left' )
       plt.show() 
