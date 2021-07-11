@@ -24,7 +24,7 @@ while True :
       for i in range(len(epoc_count)) :
         print( epoc_count[i] , test_loss[i] , val_loss[i] )
       print(max(val_loss) , epoc_count[ val_loss.index( max(val_loss) ) ] )
-      plt.xlabel("Epoch") , plt.ylabel("Accuracy")
+      plt.xlabel("Epoch") , plt.ylabel("Loss")
       plt.plot( epoc_count , test_loss , 'r--' , label='Training Loss' )
       plt.plot( epoc_count , val_loss  , 'b--' , label='Validation Loss' ) 
       plt.legend( loc = 'upper left' )
