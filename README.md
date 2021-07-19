@@ -1,5 +1,5 @@
 # Image-Processing-and-Facial-Emotion-Detection
-1. For all the purposes of training, testing and validation, a google collaboratory environment is used. 
+1. For all the purposes of training, testing and validation, google collaboratory environment is used. 
 2. At first, the data set which is collected from Kaggle is loaded from the csv file for training and validation depending on the ‘usage’ tag. 
 3. Then the CNN model is built by adding different convolution (2d) and other layers. 
 4. As per the extracted data set labeled for training and validation, the built model is trained using hardware acceleration as GPU on a certain number of epochs. 
